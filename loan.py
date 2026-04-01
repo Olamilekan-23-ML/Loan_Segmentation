@@ -32,14 +32,16 @@ with col1:
                           )
     job = st.selectbox('**Job**',
                        job_encoder.classes_,
+                       index = None,
                        help="Type of job or profession")
 with col2:    
     marital = st.selectbox('**Marital Status**', 
                            marital_encoder.classes_,
+                           index = None
                            help='Current Marital Status')
     default = st.radio('**Credit Default History**',
                         ['No', 'Yes'], 
-                        index = 0,
+                        index = None,
                         help="Has the customer ever defaulted on credit payments?"
                         )
 st.markdown('---')
@@ -57,14 +59,14 @@ with col1:
         housing = st.radio(
             '**Housing Loan**', 
             ['No', 'Yes'], 
-            index=0,
+            index=None,
             help="Does the customer have an existing housing loan?"
         )
 with col2:
      loan = st.radio(
             '**Personal Loan**', 
             ['No', 'Yes'], 
-            index=0,
+            index = None,
             help="Does the customer have an existing personal loan?"
         )
 st.markdown("---")
