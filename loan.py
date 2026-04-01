@@ -18,7 +18,7 @@ binary_encoder = {'default':{'no':0,'yes':1},
             }
 
 # Form Page 
-st.title("🏦 Loan Cross-Sell Segmentation Tool")
+st.title("🔍 Customer Loan Profile Analyzer")
 st.markdown('### Identify which loan products to offer to different customer segments')
 st.markdown('---')
 st.subheader('👤 Personal Information')
@@ -37,7 +37,7 @@ with col1:
 with col2:    
     marital = st.selectbox('**Marital Status**', 
                            marital_encoder.classes_,
-                           index = None
+                           index = None,
                            help='Current Marital Status')
     default = st.radio('**Credit Default History**',
                         ['No', 'Yes'], 
