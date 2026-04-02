@@ -130,6 +130,7 @@ Machine Learning Method
 | Features Used |	10 (age, job, marital, default, balance, housing, loan, campaign, duration, previous) |
 | Scaling |	StandardScaler |
 | Categorical Encoding |	LabelEncoder |
+
 **Why 4 Clusters?**
 The elbow method showed that 4 clusters provide the best balance between:
 
