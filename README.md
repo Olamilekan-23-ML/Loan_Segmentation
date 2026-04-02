@@ -1,6 +1,7 @@
 # 🎯 Customer Loan Profile Analyzer
 ## 📌 What Is This Project?
 This tool analyzes customer data and tells bank staff exactly which loan products to offer to each customer. Instead of guessing, you get data-driven recommendations in seconds.
+
 One line summary: _Enter customer details_ → _Get segment_ → _Receive loan recommendations_
 
 ---
@@ -18,7 +19,7 @@ One line summary: _Enter customer details_ → _Get segment_ → _Receive loan r
 ### Step 1: Enter Customer Information
 You provide  pieces of information about the customer:
 | Field | What It Means |
-| :---- | : ----------: |
+| :---- | :----------: |
 | Age |	How old is the customer |
 | Occupation |	What job they do |
 | Marital Status |	Single, married, or divorced |
